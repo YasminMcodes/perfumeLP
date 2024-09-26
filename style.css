@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 54px;
+
+}
+.header{
+    padding: 18px;
+    background-color: #1f2931;
+    font-style: roboto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 44px;
+}
+.bodyimage{
+    width: 200px;
+    height: auto;
+}
+.weltext{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 3px 18px;
+    border: solid #3882f6;
+    border-radius: 5px;
+   margin-top: 8px;
+}
+.infotitle{
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 14px 0;
+}
+.infocontainer{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.infoimage{
+width: 200px;
+height: auto;
+border: solid rgb(102, 190, 245);
+border-radius: 6px;
+}
+.infotext{
+    max-width: 200px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+    gap: 52px;
+
+}
+.missiontext{
+   max-width: 1000px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: #81878f;
+    padding: 2% 30%;
+
+}
+.content2{
+    background-color: #e5e7eb;
+    min-width: 100vw;
+    text-align: center;
+}
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    min-width: 700px;
+    min-height: 80px;
+    border-radius: 5px;
+    color: white;
+    gap: 24px;
+
+}
+.text3{
+    font-weight: bold;
+}
+.button2{
+    border: solid white;
+    border-radius: 5px;
+    padding: 2px 18px;
+    align-self: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2931;
+    color: #f9faf8;
+    padding: 18px;
+}
